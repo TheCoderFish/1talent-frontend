@@ -1,0 +1,22 @@
+// Filter Dropdown
+.filter-box {
+  overflow-x: hidden;
+  overflow-y: auto;
+  &::before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 25px;
+    top: -14px;
+    border-width: 0 20px 20px 20px;
+    border-style: solid;
+    border-color: $white transparent;
+    z-index: -1;
+  }
+}
+.select-option
+{
+  color: lighten($primary, 20%);
+  font-size: $font-size-base;
+}

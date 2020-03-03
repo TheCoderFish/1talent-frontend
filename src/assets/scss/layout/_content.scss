@@ -1,0 +1,10 @@
+.content-wrapper {
+  background-color: lighten($primary, 7%);
+  .content-bg {
+    background-color:lighten($light,10%);
+  }
+}
+.content-value {
+  color: lighten($primary, 20%);
+  font-weight: $font-weight-bold;
+}

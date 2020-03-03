@@ -1,0 +1,385 @@
+{
+  "activity1": {
+    "resignationId": 7,
+    "exitActivityId": 2,
+    "employeeName": "Nurali Khoja",
+    "approvedRelieveDate": "2019-11-14",
+    "initiatedOn": "1987-11-10",
+    "activityName": "Get Laptop",
+    "domainName": "EA Team",
+    "description": "Acquire Laptop and accessories, check for damages",
+    "assignedName": "Kalrav Shah",
+    "status": 9,
+    "remarks": [
+      "123",
+      "123"
+    ]
+  },
+  "exitActivityDetails": {
+    "resignationId": 5,
+    "exitActivityId": 1,
+    "remarks": "",
+    "activityStatus": 8
+  },
+  "employee-activity": [
+    {
+      "ActivityId": 1,
+      "employeeName": "Nurali Khoja",
+      "approvedRelievingDate": "2019-11-14",
+      "initiatedOn": "1987-11-10",
+      "activity": "Get Laptop",
+      "domain": "EA Team",
+      "assignedTo": "Kalrav Shah",
+      "statusId": 9,
+      "description": "Acquire Laptop and accessories, check for damages"
+    },
+    {
+      "ActivityId": 1,
+      "employeeName": "Nurali Khoja",
+      "approvedRelievingDate": "2019-11-14",
+      "initiatedOn": "1987-11-10",
+      "activity": "Get Laptop",
+      "domain": "EA Team",
+      "assignedTo": "Kalrav Shah",
+      "statusId": 8,
+      "description": "Acquire Laptop and accessories, check for damages"
+    },
+    {
+      "ActivityId": 1,
+      "employeeName": "Nurali Khoja",
+      "approvedRelievingDate": "2019-11-14",
+      "initiatedOn": "1987-11-10",
+      "activity": "Get Laptop",
+      "domain": "EA Team",
+      "assignedTo": "Kalrav Shah",
+      "statusId": 10,
+      "description": "Acquire Laptop and accessories, check for damages"
+    }
+  ],
+  "feedback": {
+    "feedback": "Bad Request 400 Bad Request 400 Bad Request 400 Bad Request 400"
+  },
+  "my-activity": [
+    {
+      "resignationId": 9,
+      "employeeName": "Devang Ronvelia",
+      "approvedRelievingDate": "2019-11-15T00:00:00",
+      "initiatedOn": "2019-11-20T00:00:00",
+      "exitActivityId": 23,
+      "activityName": "Deactivate Mediclaim",
+      "domainName": "HR",
+      "assignedTo": "Kiran Savle",
+      "lastUpdatedOn": null,
+      "status": 9
+    },
+    {
+      "resignationId": 9,
+      "employeeName": "Devang Ronvelia",
+      "approvedRelievingDate": "2019-11-15T00:00:00",
+      "initiatedOn": "2019-11-20T00:00:00",
+      "exitActivityId": 24,
+      "activityName": "Acquire ID Card",
+      "domainName": "HR",
+      "assignedTo": "Kiran Savle",
+      "lastUpdatedOn": null,
+      "status": 9
+    }
+  ],
+  "resignation": {
+    "firstName": "Viraj",
+    "lastName": " Kansara",
+    "approvedNoticePeriod": 0,
+    "approvedRelievingDate": null,
+    "concernEmployees": [
+      "Tripty Chauhan"
+    ],
+    "designation": "Associate L1",
+    "domain": "Development",
+    "employeeCode": 57893,
+    "employeeId": 10,
+    "employeeReason": "ResignationReason7",
+    "exitInterviewDate": null,
+    "hrRemark": null,
+    "isRehiredByHR": true,
+    "isRehiredByRM": true,
+    "managerName": "Noor'Ali",
+    "onBordingNoticePeriod": 30,
+    "proposeNoticePeriod": 0,
+    "technology": "Mobile",
+    "status": "accept",
+    "proposedRelievingDate": "2019-11-10T00:00:00",
+    "raisedOn": "2019-10-16T00:00:00",
+    "reportingPersonRemark": null,
+    "reportingManagerId": 20,
+    "ccPersonId": 0,
+    "resignationId": 7
+  },
+  "activities": [],
+  "resignedEmployees": [
+    {
+      "resignationId": 0,
+      "employeeName": "Kalrav Shah",
+      "employeeCode": 12345,
+      "approvedRelievingDate": "2019-12-11",
+      "initiatedOn": "2019-11-11",
+      "pageNumber": 1,
+      "status": 3
+    },
+    {
+      "resignationId": 1,
+      "employeeName": "Kalrav Shah",
+      "employeeCode": 12345,
+      "approvedRelievingDate": "2019-12-11",
+      "initiatedOn": "2019-11-11",
+      "pageNumber": 1,
+      "status": 2
+    },
+    {
+      "resignationId": 2,
+      "employeeName": "Kalrav Shah",
+      "employeeCode": 12345,
+      "approvedRelievingDate": "2019-12-11",
+      "initiatedOn": "2019-11-11",
+      "pageNumber": 1,
+      "status": 1
+    },
+    {
+      "resignationId": 3,
+      "employeeName": "Kalrav Shah",
+      "employeeCode": 12345,
+      "approvedRelievingDate": "2019-12-11",
+      "initiatedOn": "2019-11-11",
+      "pageNumber": 1,
+      "status": 1
+    },
+    {
+      "resignationId": 4,
+      "employeeName": "Kalrav Shah",
+      "employeeCode": 12345,
+      "approvedRelievingDate": "2019-12-11",
+      "initiatedOn": "2019-11-11",
+      "pageNumber": 1,
+      "status": 1
+    },
+    {
+      "resignationId": 5,
+      "employeeName": "Kalrav Shah",
+      "employeeCode": 12345,
+      "approvedRelievingDate": "2019-12-11",
+      "initiatedOn": "2019-11-11",
+      "pageNumber": 1,
+      "status": 1
+    },
+    {
+      "resignationId": 6,
+      "employeeName": "Kalrav Shah",
+      "employeeCode": 12345,
+      "approvedRelievingDate": "2019-12-11",
+      "initiatedOn": "2019-11-11",
+      "pageNumber": 1,
+      "status": 1
+    },
+    {
+      "resignationId": 7,
+      "employeeName": "Kalrav Shah",
+      "employeeCode": 12345,
+      "approvedRelievingDate": "2019-12-11",
+      "initiatedOn": "2019-11-11",
+      "pageNumber": 1,
+      "status": 1
+    },
+    {
+      "resignationId": 8,
+      "employeeName": "Kalrav Shah",
+      "employeeCode": 12345,
+      "approvedRelievingDate": "2019-12-11",
+      "initiatedOn": "2019-11-11",
+      "pageNumber": 1,
+      "status": 1
+    },
+    {
+      "resignationId": 9,
+      "employeeName": "Kalrav Shah",
+      "employeeCode": 12345,
+      "approvedRelievingDate": "2019-12-11",
+      "initiatedOn": "2019-11-11",
+      "pageNumber": 1,
+      "status": 1
+    },
+    {
+      "resignationId": 10,
+      "employeeName": "Kalrav Shah",
+      "employeeCode": 12345,
+      "approvedRelievingDate": "2019-12-11",
+      "initiatedOn": "2019-11-11",
+      "pageNumber": 1,
+      "status": 1
+    },
+    {
+      "resignationId": 11,
+      "employeeName": "Kalrav Shah",
+      "employeeCode": 12345,
+      "approvedRelievingDate": "2019-12-11",
+      "initiatedOn": "2019-11-11",
+      "pageNumber": 1,
+      "status": 1
+    },
+    {
+      "resignationId": 12,
+      "employeeName": "Kalrav Shah",
+      "employeeCode": 12345,
+      "approvedRelievingDate": "2019-12-11",
+      "initiatedOn": "2019-11-11",
+      "pageNumber": 1,
+      "status": 1
+    },
+    {
+      "resignationId": 13,
+      "employeeName": "Kalrav Shah",
+      "employeeCode": 12345,
+      "approvedRelievingDate": "2019-12-11",
+      "initiatedOn": "2019-11-11",
+      "pageNumber": 1,
+      "status": 1
+    },
+    {
+      "resignationId": 14,
+      "employeeName": "Kalrav Shah",
+      "employeeCode": 12345,
+      "approvedRelievingDate": "2019-12-11",
+      "initiatedOn": "2019-11-11",
+      "pageNumber": 1,
+      "status": 1
+    },
+    {
+      "resignationId": 15,
+      "employeeName": "Kalrav Shah",
+      "employeeCode": 12345,
+      "approvedRelievingDate": "2019-12-11",
+      "initiatedOn": "2019-11-11",
+      "pageNumber": 1,
+      "status": 1
+    }
+  ],
+  "domain": [
+    {
+      "domainId": 0,
+      "domainName": ".Net"
+    },
+    {
+      "domainId": 0,
+      "domainName": "QA"
+    },
+    {
+      "domainId": 0,
+      "domainName": "ANGULAR"
+    },
+    {
+      "domainId": 0,
+      "domainName": "UI"
+    }
+  ],
+  "activity": [
+    {
+      "activityId": 0,
+      "activityName": "Acquire Laptop"
+    },
+    {
+      "activityId": 1,
+      "activityName": "Acquire Id "
+    },
+    {
+      "activityId": 2,
+      "activityName": "Close Account"
+    },
+    {
+      "activityId": 3,
+      "activityName": "Remove Access"
+    }
+  ],
+  "status": [
+    {
+      "status": 7
+    },
+    {
+      "status": 8
+    },
+    {
+      "status": 9
+    },
+    {
+      "status": 10
+    }
+  ],
+  "assigned": [
+    {
+      "assignedId": 0,
+      "assignedName": "ABC"
+    },
+    {
+      "assignedId": 1,
+      "assignedName": "ABC"
+    },
+    {
+      "assignedId": 2,
+      "assignedName": "ABC"
+    },
+    {
+      "assignedId": 3,
+      "assignedName": "ABC"
+    },
+    {
+      "assignedId": 4,
+      "assignedName": "ABC"
+    }
+  ],
+  "exit-activity": [
+    {
+      "resignationId": 0,
+      "exitActivityId": 7,
+      "activityName": "Acquire Id ",
+      "employeeName": "Kalrav Shah",
+      "initiatedOn": "2019-11-20",
+      "domainId": "1",
+      "domainName": "ANGULAR",
+      "assignedId": "1",
+      "ownerName": "ABC",
+      "description": "kjbgdfgvkhhjfhdf",
+      "status": 8,
+      "remarks": "ABC",
+      "allStatusCheck": true
+    },
+    {
+      "resignationId": 0,
+      "exitActivityId": 2,
+      "activityName": "Acquire Id ",
+      "employeeName": "Kalrav Shah",
+      "initiatedOn": "2019-11-20",
+      "domainId": "1",
+      "domainName": "ANGULAR",
+      "assignedId": "1",
+      "ownerName": "ABC",
+      "description": "kjbgdfgvkhhjfhdf",
+      "status": 8,
+      "remarks": "ABC",
+      "allStatusCheck": true
+    },
+    {
+      "resignationId": 0,
+      "exitActivityId": 3,
+      "activityName": "Acquire Id ",
+      "allStatusCheck": true,
+      "initiatedOn": "2019-11-20",
+      "domainId": "1",
+      "domainName": "ANGULAR",
+      "assignedId": "1",
+      "ownerName": "ABC",
+      "description": "kjbgdfgvkhhjfhdf",
+      "status": 8,
+      "remarks": "ABC"
+    }
+  ],
+  "employeeId": 15,
+  "employeeName": "Kalrav Shah",
+  "approvedRelieveDate": "2019-12-11"
+}

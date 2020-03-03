@@ -1,0 +1,25 @@
+//form
+  .form-control {
+    outline: 0;
+    &::placeholder {
+      color: darken($light, 25%);
+      font-size: $font-size-base * 0.9;
+    }
+  }
+  //resignation-form
+  .resignation-form {
+    right: 0;
+    width: $resignation-form-width;
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
+  }
+  // filter-form
+  .filter-form {
+    width: $filter-form-width;
+    @include media-breakpoint-down(sm) {
+      height: $filter-form-height;
+      width: $filter-form-width-sm;
+    }
+  }
+

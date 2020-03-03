@@ -1,0 +1,129 @@
+//Table styles
+.data-table {
+  thead {
+    tr {
+      th {
+        &:first-child {
+          border-top-left-radius: $border-radius;
+        }
+        &:last-child {
+          border-top-right-radius: $border-radius;
+        }
+      }
+      .table-row-heading {
+        vertical-align: top;
+        white-space: nowrap;
+      }
+    }
+  }
+  tbody {
+    tr {
+      &:last-child {
+        td {
+          &:first-child {
+            border-bottom-left-radius: $border-radius;
+          }
+          &:last-child {
+            border-bottom-right-radius: $border-radius;
+          }
+        }
+      }
+      .data-table-item {
+        color: lighten($primary, 20%);
+        vertical-align: middle;
+        border: 0;
+      }
+    }
+  }
+}
+.activity-list-table {
+  td,
+  th {
+    &:nth-child(1) {
+      width: 80px;
+      min-width: 80px;
+    }
+    &:nth-child(2) {
+      width: 58px;
+      min-width: 58px;
+    }
+    &:nth-child(3) {
+      width: 480px;
+      min-width: 480px;
+    }
+    &:nth-child(4) {
+      width: 230px;
+      min-width: 230px;
+    }
+    &:nth-child(5) {
+      width: 160px;
+      min-width: 160px;
+    }
+    &:nth-child(6) {
+      width: 270px;
+      min-width: 270px;
+    }
+    &:nth-child(7) {
+      width: 340px;
+      min-width: 340px;
+    }
+  }
+}
+.myactivity-list-table {
+  td,
+  th {
+    &:nth-child(1) {
+      width: 80px;
+      min-width: 80px;
+    }
+    &:nth-child(2) {
+      width: 260px;
+      min-width: 260px;
+    }
+    &:nth-child(3) {
+      width: 180px;
+      min-width: 180px;
+    }
+    &:nth-child(4) {
+      width: 180px;
+      min-width: 180px;
+    }
+    &:nth-child(5) {
+      width: 180px;
+      min-width: 180px;
+    }
+    &:nth-child(6) {
+      width: 180px;
+      min-width: 180px;
+    }
+  }
+}
+.feedback-list-table {
+  td,
+  th {
+    &:nth-child(1) {
+      width: 80px;
+      min-width: 80px;
+    }
+    &:nth-child(2) {
+      width: 180px;
+      min-width: 180px;
+    }
+    &:nth-child(3) {
+      width: 180px;
+      min-width: 180px;
+    }
+    &:nth-child(4) {
+      width: 180px;
+      min-width: 180px;
+    }
+    &:nth-child(5) {
+      width: 180px;
+      min-width: 180px;
+    }
+    &:nth-child(6) {
+      width: 260px;
+      min-width: 260px;
+    }
+  }
+}
